@@ -1,0 +1,237 @@
+/*Shamaria Young CSS Sheet*/
+#content{
+	font-family:tahoma;
+	width:80%;
+	margin:auto;
+	padding:8px;
+	border-radius:15px;
+}
+header,nav,main,footer{padding:5px;
+}
+/*Layout*/
+.container{
+	display:flex;
+}
+/*Main Sturcture*/
+header {
+	background:black;
+	color:deeppink;
+		text-align:center;
+}
+/*Navigation*/
+nav{
+	background:#ffccff;
+}
+	#main-nav ul{
+		list-style-type:none;
+		text-align:left;
+		padding:5px;
+	}
+		#main-nav li{
+		display:inline;
+		padding:5px;
+		}
+		#main-nav a {
+			text-decoration:none;
+			background:#737373;
+			padding:5px;
+			color:lightpink;
+			display:block;
+			border-bottom:3px solid black;
+			border-top:3px solid black;
+			border-left:3px solid black;
+			border-right:3px solid black;
+			text-align:center;
+		}
+		#main-nav a:hover{
+			background:#8c8c8c;
+			text-align:right;
+		}
+/*Main*/
+main{
+	display:flex;
+	padding:1;
+	background:gray;
+}
+body{
+	background:#333333;
+}
+main h2{
+	text-align:center;
+	color:#ff99ff;
+}
+.col-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+
+main{
+	display:block;
+}
+	.col-2 img{
+	  float: left;
+	  padding:10px;
+	  }
+	.col-2 img:hover{
+		transform:rotate(-5deg);
+		filter:drop-shadow(5px 5px 5px black);
+		 border:3px dotted purple;
+	}
+	.col-3 img{
+	  float: left;
+	  padding:8px;
+	  transform:rotate(-2.5deg);
+	  filter:drop-shadow(1px 1px 1px white);
+	}
+#more {display: none;}
+#more1 {display: none;}
+.hide{
+	display:none;
+}
+.hidden{
+	display:none;
+}
+#youtube{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+	font-weight:bold;
+	}
+#photos{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:700px;
+		border:8px solid black;
+	}
+
+/*Quiz*/
+
+.main-quiz{
+	background:deeppink;
+	color:black;
+	padding:5px;
+	display:flex;
+	}
+#btn-result{
+	color:pink;
+	background:black;
+	border:solid white 3px;
+	}
+.hidden{
+		flex:1;
+		padding:8px;
+		display:none;
+	}
+	.quiz{
+		flex:1;
+		padding:8px
+	}
+
+/*Contact Me*/
+
+.contact{
+	background:#c4bdb7;
+	color:black;
+	padding:3px;
+	font-weight: bold;
+	text-align:left;
+	display:flex;
+}
+.info{
+	background:#EEEEEE;
+	color:#CD00B1;
+	padding:3px;
+	font-style: oblique;
+	text-align:center;
+	}
+.info iframe{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+footer{
+	background:#1a1a1a;
+	padding:5px;
+	color:white;
+	text-align:center;
+}
+/*Higher Resolution*/
+@media(min-width:720px){
+#content{
+	font-family:tahoma;
+	width:80%;
+	margin:auto;
+	padding:8px;
+	border-radius:15px;
+}
+header,nav,main,footer{padding:5px;
+}
+/*Layout*/
+.container{
+	display:flex;
+}
+#more {display: none;}
+#more1{display: none;}
+
+/*Main Sturcture*/
+header {
+	background:black;
+	color:deeppink;
+	text-align:center;
+}
+/*Navigation*/
+nav{
+	background:#4d4d4d;
+	padding:5px
+}
+body{
+	background:pink;
+}
+	#main-nav ul{
+		list-style-type:none;
+		text-align:left;
+		padding:5px;
+	}
+		#main-nav li{
+		display:inline;
+		padding:5px;
+		}
+		#main-nav a {
+			text-decoration:none;
+			background:#737373;
+			padding:5px;
+			color:lightpink;
+			display:block;
+			border-bottom:3px solid black;
+			border-top:3px solid black;
+			border-left:3px solid black;
+			border-right:3px solid black;
+			text-align:center;
+		}
+		#main-nav a:hover{
+			background:deeppink;
+			color:black;
+			rotate:5deg;
+		}
+	#imgs{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		border:8px solid black;
+	}
+.hidden{
+	display:none;
+}
+	footer{
+	background:#1a1a1a;
+	padding:5px;
+	color:white;
+	text-align:center;
+	}
+}

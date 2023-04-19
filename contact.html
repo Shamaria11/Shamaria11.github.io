@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel ="stylesheet" href="styles.css">
+<title>&#127799; Shamaria &#127799;</title>
+<meta charset="utf-8">
+</head>
+<!--Shamaria Young, CSCE 102, section 014, 1/18/2023-->
+<body>
+	<div id="content">
+		<header>
+			<h1><em>&#127799; Sha'maria Young &#127799;</em> </h1>
+		</header>
+		<nav id ="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html"> Quiz</a></li>
+				<li><a href="#"> Contact Me</a></li>
+			</ul>
+		</nav>
+		<main class="col-container">
+			<section class="contact">
+				<div class="flex items-center min-h-screen bg-gray-100 dark:bg-gray-900">
+				  <div class="container mx-auto">
+					<div class="max-w-xl mx-auto my-10 bg-white p-5 rounded-md shadow-sm">
+					  <div class="text-center">
+						<h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
+						  Contact Me
+						</h1>
+						<p class="text-gray-400 dark:text-gray-400">
+						  Fill out the form below to send me a message. <br>Please be detailed as possible for your regards!
+						</p>
+					  </div>
+					  <div class="m-7">
+						<form action="https://api.web3forms.com/submit" method="POST" id="form">
+						  <input type="hidden" name="access_key" value="a6770225-1b43-4e5c-8f44-405fbf620378">
+						  <input type="hidden" name="subject" value="New Submission from Web3Forms" >
+						  <input type="checkbox" name="botcheck" style="display: none;">
+
+						  <div class="flex mb-6 space-x-4">
+							<div class="w-full md:w-1/2">
+							 <p> <label for="fname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">First Name:</label></p>
+							  <input type="text" name="name" id="first_name" placeholder="Shamaria" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+							</div>
+							
+							<div class="w-full md:w-1/2">
+							 <p> <label for="lname" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Last Name:</label></p>
+							  <input type="text" name="last_name" id="lname" placeholder="Young" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+							</div>
+						  </div>
+
+						  <div class="flex mb-6 space-x-4">
+							<div class="w-full md:w-1/2">
+							 <p> <label for="email" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Email Address:</label></p>
+							  <input type="email" name="email" id="email" placeholder="your-email@company.com" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+							</div>
+
+							<div class="w-full md:w-1/2">
+							 <p><label for="phone" class="block text-sm mb-2 text-gray-600 dark:text-gray-400">Phone Number:</label></p>
+							  <input type="text" name="phone" id="phone" placeholder="+1 (803) 1234-567" required class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500">
+							</div>
+						  </div>
+						  
+						  <div class="mb-6">
+							<p><label for="message" class="block mb-2 text-sm text-gray-600 dark:text-gray-400">Your Message</label></p>
+							<textarea rows="5" name="message" id="message" placeholder="Your Message" class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" required></textarea>
+						  </div>
+						  
+						  <div class="mb-6">
+							<button type="submit" class="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
+							  Send Message
+							</button>
+						  </div>
+						  
+						  <p class="text-base text-center text-gray-400" id="result"></p>
+						</form>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</section>
+			
+			<section class="info">
+				<h3>Find Me Here!</h3>
+					<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.030971341493!2d-73.97225702343971!3d40.76134353459257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e53d551b15%3A0x4adbf99336d0fd3!2s125%20E%2057th%20St%2C%20New%20York%2C%20NY%2010022!5e0!3m2!1sen!2sus!4v1678828024386!5m2!1sen!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	</p>
+					<p> <b>Space of Comfortable Support Center</b></p>
+					<p> 125 E 57th St, New York, NY 10022</p>
+		</section>
+		</main>
+		<footer>
+			<p>&copy;Shamaria Young</p>
+		</footer> 
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

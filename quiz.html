@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel ="stylesheet" href="styles.css">
+<title> Shamaria</title>
+<meta charset="utf-8">
+</head>
+<!--Shamaria Young, CSCE 102, section 014, 1/18/2023-->
+<body>
+	<div id="content">
+		<header>
+			<h1><em>Shamaria H. Young</em> </h1>
+		</header>
+		<nav id ="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#"> Quiz</a></li>
+				<li><a href="contact.html"> Contact Me</a></li>
+			</ul>
+		</nav>
+		<main class="main-quiz">
+			<section class="quiz">
+				<h2>Website Devolpment Quiz</h2>
+					<p>
+					<label for="firstname"><b>First Name:</b></label>
+					<input id="firstname">
+				</p>
+				<p>
+					<label for="lastname"><b>Last Name:</b></label>
+					<input  id="lastname">
+				</p>
+			
+				<p>
+				<label for="ques-txt"><b>1.</b> Which of the follow is an inline element of HTML?</label>
+					<select id="ques-txt">
+						<option> &lt;img&gt;</option>
+						<option> &lt;section&gt;</option>
+						<option> &lt;main&gt;</option>
+						<option> &lt;span&gt;</option>
+						<option>&lt;p&gt;</option>
+					</select>
+				</p>
+				
+				<p>
+				<label for="next-txt"> <b>2.</b>What is the correct HTML for referring to an external style sheet?<br></label>
+					<select id="next-txt">
+						<option> &lt;stylesheet&gt;</option>
+						<option> &lt;link rel="stylesheet" href="styles.css"&gt;</option>
+						<option> &lt;link rel=javascript.mystyles.sheet.css&gt;</option>
+						<option>All the above are correct</option>
+						<option>None of the above are correct</option>
+					</select>
+				</p>
+				
+				<p>
+					<label for="after-txt"><b>3.</b>When using JavaScript, which of the the following is used to show an alert to: <b>Hello World</b><br></label>
+					<select id="after-txt">
+						<option>alert_User("Hello World")</option>
+						<option>msg("Hello World")</option>
+						<option>alertBox.getElementbyId("Hello World")</option>
+						<option>textAlert("Hello World")</option>
+						<option>alert("Hello World");</option>
+					</select>
+				</p>
+				
+				<p>
+					<label for="last-txt"> <b>4.</b>When using CSS, which of the the following correctly states the following:<br>
+					<b>I want the body color to be black. </b><br></label>
+					<select id="last-txt">
+						<option>body(black solid)</option>
+						<option>body{color:black;}</option>
+						<option>Body{color:black;}</option>
+						<option>body.color{black;}</option>
+						<option>None of the above are correct</option>
+					</select>
+				</p>
+					<br><br><button id="btn-result" onclick="showResults()"><b>Submit For Results</b></button>
+					
+			</section>
+					
+		<section id="result" class="hidden">
+			<h2>Quiz Results</h2>
+				<div id ="quiz-result">
+					<p id="line1"></p>
+					<p id="line2"></p>
+					<p id="line3"><p>
+					<p id="line4"><p>
+					<p id="line5"><p>
+				</div>	
+		</section>
+			
+</main>
+<footer>
+	<p>&copy;Shamaria Young</p>
+</footer>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
